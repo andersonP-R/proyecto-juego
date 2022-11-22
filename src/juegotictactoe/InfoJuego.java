@@ -18,6 +18,9 @@ public class InfoJuego {
     private Label message;
     private Button startGameButton;
 
+    /**
+     * Constructor para la clase InfoJuego
+     */
     public InfoJuego() {
         pane = new StackPane();
         pane.setMinSize(ConstantesUI.APP_WIDTH, ConstantesUI.INFO_JUEGO_HEIGHT);
